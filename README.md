@@ -11,24 +11,24 @@ Initial Starting Dates
 ----------------------
 
 ### Bitcoin
-BTC-EUR: 2015-04-23
-BTC-USD: 2015-01-08
-BTC-GBP: 2015-04-21
+    BTC-EUR: 2015-04-23
+    BTC-USD: 2015-01-08
+    BTC-GBP: 2015-04-21
 
 ### Ethereum
-ETH-BTC: 2016-05-18
-ETH-EUR: 2017-05-23
-ETH-USD: 2016-05-18
+    ETH-BTC: 2016-05-18
+    ETH-EUR: 2017-05-23
+    ETH-USD: 2016-05-18
 
 ### Litecoin
-LTC-BTC: 2016-08-17
-LTC-USD: 2016-08-17
-LTC-EUR: 2017-05-22
+    LTC-BTC: 2016-08-17
+    LTC-USD: 2016-08-17
+    LTC-EUR: 2017-05-22
 
 ### Bitcoin Cash
-BCH-BTC: 2018-01-17
-BCH-USD: 2017-12-20
-BCH-EUR: 2018-01-24
+    BCH-BTC: 2018-01-17
+    BCH-USD: 2017-12-20
+    BCH-EUR: 2018-01-24
 
 Installation
 ============
