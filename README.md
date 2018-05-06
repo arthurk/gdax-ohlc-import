@@ -5,6 +5,16 @@ This is a script that fetches all historical OHLC data from GDAX.
 
 The data has a 1-minute interval and can be used to carry out further in-depth analysis of market trends. All traded products (BTC, BCH, ETH, LTC) will be imported into a local SQLite database. The import will begin from the earliest trading date (see below). The script can be invoked periodically (for example with a cronjob) to fetch the latest data. It will automatically resume from the latest saved date.
 
+- [gdax-ohlc-import](#gdax-ohlc-import)
+  * [Starting Dates](#starting-dates)
+- [Installation](#installation)
+  * [virtualenv (pipenv)](#virtualenv--pipenv-)
+  * [Docker](#docker)
+- [Usage](#usage)
+- [Data Format](#data-format)
+  * [Export to CSV](#export-to-csv)
+  * [Import to Pandas](#import-to-pandas)
+
 API rate limits are respected (currently the limit is 3 req/s, the script will do 1 req/s). It will also re-try fetching and continue to the next symbol after 3 failed attempts.
 
 Starting Dates
