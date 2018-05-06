@@ -147,21 +147,25 @@ Import to Pandas
 
 To import the data into Pandas you have two options. Either use the Sqlite3 db directly:
 
-    import pandas as pd
-    import sqlite3
+```python
+import pandas as pd
+import sqlite3
 
-    # Connect to database
-    con = sqlite3.connect('gdax.sqlite3')
-    c = con.cursor()
+# Connect to database
+con = sqlite3.connect('gdax.sqlite3')
+c = con.cursor()
 
-    # Read data into pandas dataframe
-    sql = 'SELECT * FROM candles'
-    df = pd.read_sql_query(sql, con, index_col='time', parse_dates={'time': 's'})
-    df = df.astype(float)
+# Read data into pandas dataframe
+sql = 'SELECT * FROM candles'
+df = pd.read_sql_query(sql, con, index_col='time', parse_dates={'time': 's'})
+df = df.astype(float)
+```
 
 Or export the data into a CSV file and use the `read_csv` method (less boilerplate code):
 
-    import pandas as pd
+```python
+import pandas as pd
 
-    df = pd.read_csv('gdax.csv', index_col='time', parse_dates=True)
-    df.index = pd.to_datetime(df.index, unit='s')
+df = pd.read_csv('gdax.csv', index_col='time', parse_dates=True)
+df.index = pd.to_datetime(df.index, unit='s')
+```
