@@ -7,28 +7,20 @@ The data has a 1-minute interval and can be used to carry out further in-depth a
 
 API rate limits are respected (currently the limit is 3 req/s, the script will do 1 req/s). It will also re-try fetching and continue to the next symbol after 3 failed attempts.
 
-Initial Starting Dates
-----------------------
+Starting Dates
+--------------
 
-### Bitcoin
-    BTC-EUR: 2015-04-23
-    BTC-USD: 2015-01-08
-    BTC-GBP: 2015-04-21
+    # Bitcoin 
+    BTC-EUR: 2015-04-23 | BTC-USD: 2015-01-08 | BTC-GBP: 2015-04-21
 
-### Ethereum
-    ETH-BTC: 2016-05-18
-    ETH-EUR: 2017-05-23
-    ETH-USD: 2016-05-18
+    # Ethereum
+    ETH-BTC: 2016-05-18 | ETH-EUR: 2017-05-23 | ETH-USD: 2016-05-18
 
-### Litecoin
-    LTC-BTC: 2016-08-17
-    LTC-USD: 2016-08-17
-    LTC-EUR: 2017-05-22
-
-### Bitcoin Cash
-    BCH-BTC: 2018-01-17
-    BCH-USD: 2017-12-20
-    BCH-EUR: 2018-01-24
+    # Litecoin
+    LTC-BTC: 2016-08-17 | LTC-USD: 2016-08-17 | LTC-EUR: 2017-05-22
+    
+    # Bitcoin Cash
+    BCH-BTC: 2018-01-17 | BCH-USD: 2017-12-20 | BCH-EUR: 2018-01-24
 
 Installation
 ============
