@@ -1,7 +1,7 @@
 gdax-ohlc-import
 ================
 
-This is a script that fetches all historical OHLC data from GDAX.
+This is a script that fetches all historical OHLC data from [GDAX](https://www.gdax.com/).
 
 The data has a 1-minute interval and can be used to carry out further in-depth analysis of market trends. All traded products (BTC, BCH, ETH, LTC) will be imported into a local SQLite database. The import will begin from the earliest trading date (see below). The script can be invoked periodically (for example with a cronjob) to fetch the latest data. It will automatically resume from the latest saved date.
 
