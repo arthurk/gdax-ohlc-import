@@ -79,7 +79,7 @@ You can run the script with the following command:
 
 Or if you prefer Docker:
 
-    $ docker run --rm -v $(pwd)/data:/data python main.py /data/db.sqlite3
+    $ docker run --rm -v $(pwd)/data:/data gdax python main.py /data/db.sqlite3
 
 This will start fetching data into the `db.sqlite3` file. If it's the first run it will start from the earliest trading day. You can abort the script at any time and it will resume fetching from the last saved state. 
 
